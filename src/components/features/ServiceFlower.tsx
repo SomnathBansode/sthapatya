@@ -1,7 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import measuringTapeFlower from "../../../public/assets/b13a83b5d029e2e2aa6a839554617f84a51050ec.png";
+
+const measuringTapeFlower =
+  "/assets/b13a83b5d029e2e2aa6a839554617f84a51050ec.png";
 
 interface Service {
   icon?: any;
